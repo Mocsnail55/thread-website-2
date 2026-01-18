@@ -130,8 +130,25 @@ body {
   }
   #thread-logo {
     width: 400px;
-    height: auto;
-    margin-left: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+  .main-content-container {
+    flex-direction: column;
+  }
+  .main-content-container-2 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .main-content-container {
+    flex-direction: column;
+  }
+  .main-content-container-2 {
+    flex-direction: column;
   }
 }
 
@@ -151,3 +168,4 @@ body {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap");
+
